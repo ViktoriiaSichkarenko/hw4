@@ -1,0 +1,183 @@
+* { 
+ margin: 0;
+ padding: 0;
+}
+
+body {
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	font-family: Tahoma, Arial, sans-serif;
+	margin: 0 auto;
+}
+
+.wrapper {
+	margin: 39px auto 0;
+	width: 998px; 
+	background-image: url(../img/white.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 3px solid black;
+	box-shadow: 0 0 10px rgba(0,0,0,1); /* Параметры тени */
+	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=5, offY=5, color=#000000);
+}
+
+/* HEADER */
+
+.header {
+	 padding: 10px 20px 0 0;
+	 color: #128aa7; 
+	 font-family: Tahoma, Arial, sans-serif;
+}
+.logo {
+	 display: inline-block;
+	 margin: 10px 25px 0;
+ } 
+
+.contacts{
+	 list-style: none;
+	 float: right;
+	 padding-top: 10px 30px 33px 10px;
+	  text-decoration: none;
+}
+
+.countries-menu {
+	clear: right;
+	display: inline-block;
+	float: right;
+	margin-top: 30px;
+	font-size: 10px;
+}
+
+.countries-menu  li{
+	list-style: none;
+	display: inline-block;
+}
+
+.countries-menu a{
+	color: #128aa7;
+}
+/*END of HEADER */
+
+
+
+/* CONTENT */
+
+.menu {
+	box-shadow: 0 0 10px rgba(0,0,0,1); /* Параметры тени */
+	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=5, offY=5, color=#000000);
+	z-index: 1;
+	background: -moz-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(55,55,55,1)), color-stop(100%, rgba(55,55,55,1)));
+	background: -webkit-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 100%);
+	background: -o-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 100%);
+	background: -ms-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 100%);
+	background: linear-gradient(to bottom, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#373737', GradientType=0 );
+}
+.menu a{
+	text-decoration: none;
+	padding: 0 10px;
+	color: #fff;
+	transition: 0.5s all;
+	}
+	
+.content__menu li{
+	display: inline-block;
+	list-style: none;
+	background: -moz-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(55,55,55,1)), color-stop(100%, rgba(55,55,55,1)));
+	background: -webkit-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 100%);
+	background: -o-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 100%);
+	background: -ms-linear-gradient(top, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 100%);
+	background: linear-gradient(to bottom, rgba(55,55,55,1) 0%, rgba(55,55,55,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#373737', GradientType=0 );	
+	line-height: 28px;
+	font-size: 14px;
+	padding: 0 25px;
+}
+
+.menu__list{
+	position:relative;
+}
+.menu__list li{
+	display: inline-block;
+	line-height: 25px;
+}
+.menu__drop {
+	position:absolute;
+	width: 100%;
+	opacity: 0;
+	
+}
+.menu__drop li{
+padding: 5px;
+}
+
+.menu__list:hover .menu__drop {
+	opacity: 1;
+	top: 100%;
+}
+
+h3 {
+	 color: #0f86a9;
+	 text-align: center;
+	 font-size: 18px;
+	 font-weight: 500;
+}
+.sidebar {
+	clear: both;
+	background-image: url(../img/grey.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	width: 210px;
+	float: left; 
+	padding: 5px 14px 14px 14px;
+}
+
+.sidebar li{
+	list-style: none;}
+
+.sidebar a{
+	 text-decoration: none;
+	 color: #424c43;
+	 font-size: 14px;
+}
+
+.news {
+	background-image: url(../img/grey.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	width: 210px;
+	float: right; 
+	padding: 5px 14px 14px 14px;
+}
+.news li{
+	list-style: none;
+}
+
+.news a{
+	 text-decoration: none;
+	 color: #424c43;
+	 font-size: 14px;
+}
+
+/* END of CONTENT */
+
+
+
+/*FOOTER*/
+ 
+.footer p {
+	clear: both;
+display: block; 
+ text-align: center; 
+ line-height: 15px;
+ font-size: 12px;
+color: #fff;
+
+position: relative;
+top: 5px;
+padding-bottom: 10px;
+}
